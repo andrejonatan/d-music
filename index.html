@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>d-music | YouTube to MP3</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="card">
+    <h1>d-music</h1>
+    <p>Paste tautan YouTube di bawah untuk download MP3</p>
+
+    <div class="input-group">
+      <input type="text" id="ytUrl" placeholder="https://www.youtube.com/watch?v=..." autocomplete="off">
+      <button id="btnDownload" onclick="downloadLagu()">Download MP3</button>
+    </div>
+
+    <div id="statusText" class="status"></div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
